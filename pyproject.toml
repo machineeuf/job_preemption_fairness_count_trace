@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "machineeuf-longctx_jd374"
+name = "machineeuf-job_preemption_fairness_count_trace"
 version = "0.1.0"
 description = "统计各来源片段的贡献量与占比，标出长上下文优化工程师·作业抢占与调度公平性上最主要的来源"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://machineeuf.github.io"
-Repository = "https://github.com/machineeuf/longctx_jd374"
-Issues = "https://github.com/machineeuf/longctx_jd374/issues"
+Repository = "https://github.com/machineeuf/job_preemption_fairness_count_trace"
+Issues = "https://github.com/machineeuf/job_preemption_fairness_count_trace/issues"
 
 [project.scripts]
-longctx_jd374 = "longctx_jd374:main"
+job_preemption_fairness_count_trace = "job_preemption_fairness_count_trace:main"
 
 [tool.setuptools]
-py-modules = ["longctx_jd374"]
+py-modules = ["job_preemption_fairness_count_trace"]
